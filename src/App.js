@@ -20,9 +20,9 @@ function App() {
           </div>          
         </div>
          <div className="profile-links">
-          <a href="https://github.com/udoyen">Github</a> &nbsp; <a href="https://askubuntu.com/users/459561/george-udosen">AskUbuntu</a>
+          <a href="https://github.com/udoyen" target="_blank">Github</a> &nbsp; <a href="https://askubuntu.com/users/459561/george-udosen" target="_blank">AskUbuntu</a>
              
-             &nbsp; <a href="https://stackoverflow.com/users/story/2782188">Stackoverflow</a>
+             &nbsp; <a href="https://stackoverflow.com/users/story/2782188" target="_blank">Stackoverflow</a>
           </div>
       </header>
     </div>
