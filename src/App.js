@@ -1,23 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import glogo from './glogo.png';
+// import me2 from './me2.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div class="profile-header">
+          My Cloud Challenge React Application
+        </div>
+        <div class="flex-container">
+          <div id="profile" class="column profile">
+            {/* <img src={me2} className="" alt="profile" width="400" height="400"/> */}
+          </div>
+          <div id="google-logo" className="column google-stamp">
+            <img src={glogo} className="gcp-logo" alt="google" />
+          </div>          
+        </div>
+         <div className="profile-links">
+          <a href="https://github.com/udoyen">Github</a> &nbsp; <a href="https://askubuntu.com/users/459561/george-udosen">AskUbuntu</a>
+             
+             &nbsp; <a href="https://stackoverflow.com/users/story/2782188">Stackoverflow</a>
+          </div>
       </header>
     </div>
   );

@@ -20,3 +20,63 @@
 .App-link {
   color: #09d3ac;
 }
+
+/*
+Added to create equally sized div using flexbox
+*/
+
+.flex-container {
+  width: 80%;
+  min-height: 300px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  /* Standard syntax */
+  justify-content: space-between;
+}
+
+.flex-container .column {
+  padding: 10px;
+  background: #dbdfe5;
+  border: 10px solid green;
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+}
+
+
+.profile-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#profile {
+  background-image: url(./me2.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.profile-links {
+  margin-top: 40px;
+}
+
+.profile-header {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+@media screen and (max-width:780px) {
+
+  #google-logo,
+  .gcp-logo {
+    display: none;
+  }
+
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
